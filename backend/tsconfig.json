@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // ... other options
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    
+    /* --- THIS PART MUST EXIST --- */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
